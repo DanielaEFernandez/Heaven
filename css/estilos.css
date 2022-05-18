@@ -28,11 +28,11 @@ body{
 	transform: scale(1.1);
 }
 
-.navbar-toggler{
-	color: blue;
-	background-color: blue;
+.navbar-toggler-icon{
+	color: black;
+	border-color: red;
+	background-image: url("../assets/noun-menu-425493.svg");
 }
-
 
 .collapse{
 	background-color: white;
