@@ -53,6 +53,18 @@ body{
 
 /*Hero*/
 
+.banner-hero{
+	position: relative;
+	background-image: url("../assets/pink-party.jpg");
+	min-height: 100vh;
+	min-width: 100%;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	padding: 250px 0 200px;
+}
+/*/
+
 .hero{
 	height: 80vh;
 	background-image: url("../assets/pink-party.jpg");
@@ -94,6 +106,17 @@ body{
 	border-radius: 5px;
 }
 
+/*/
+
+.banner-hero .boton{
+	font-size: 20px;
+	text-decoration: none;
+	color: #fff;
+	background-color: #0099D9;
+	padding: 10px 30px;
+	border-radius: 5px;
+}
+
 .hero .boton:hover{
 	background-color: #202C4C;
 }
@@ -123,6 +146,7 @@ h5{
 p{
 	font-weight: 300;
 	color: #202C4C;
+	padding-bottom: 20px;
 }
 
 /*footer*/
@@ -304,6 +328,10 @@ h6{
 
 	.navbar{
 		width: 100%;
+	}
+
+	.banner-hero{
+		padding: 200px 0;
 	}
 
 	.hero{
