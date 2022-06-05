@@ -1,0 +1,19 @@
+@mixin cuadro ($fondo, $ancho:200px){
+background-color: $fondo;
+width: $ancho;
+height: 200px;
+margin-top: 5px;
+padding: 10px;
+}
+
+.cuadro-1{
+@include cuadro (green, 300px);
+}
+
+.cuadro-2{
+@include cuadro (pink, 100px);
+}
+
+.cuadro-3{
+@include cuadro (yellow, 600px);
+}

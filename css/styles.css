@@ -8,6 +8,113 @@ body {
   font-family: "Lato", sans-serif;
 }
 
+.btn-wsp {
+  position: fixed;
+  line-height: 30px;
+  bottom: 20px;
+  right: 20px;
+  z-index: 100;
+}
+.btn-wsp img {
+  width: 65px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #202C4C;
+  padding-bottom: 20px;
+}
+
+h5 {
+  font-weight: 700;
+  color: #202C4C;
+}
+
+h6 {
+  font-weight: 700;
+  font-size: 30px;
+  color: #202C4C;
+}
+
+p {
+  font-weight: 300;
+  color: #202C4C;
+  padding-bottom: 20px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #202C4C;
+  padding-top: 30px;
+}
+
+.boton {
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #0099D9;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+.boton:hover {
+  background-color: #202C4C;
+  color: white;
+}
+
+.btn {
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #BD3376;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  color: white;
+  background-color: #202C4C;
+}
+
+.boton-comprar {
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #0099D9;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+.boton-comprar:hover {
+  background-color: #202C4C;
+}
+
+.cuadro-1 {
+  background-color: green;
+  width: 300px;
+  height: 200px;
+  margin-top: 5px;
+  padding: 10px;
+}
+
+.cuadro-2 {
+  background-color: pink;
+  width: 100px;
+  height: 200px;
+  margin-top: 5px;
+  padding: 10px;
+}
+
+.cuadro-3 {
+  background-color: yellow;
+  width: 600px;
+  height: 200px;
+  margin-top: 5px;
+  padding: 10px;
+}
+
 /*menu*/
 .navbar .navbar-color {
   background-color: white;
@@ -42,28 +149,6 @@ body {
   background-attachment: fixed;
   padding: 250px 0 200px;
 }
-.banner-hero .boton {
-  font-size: 20px;
-  text-decoration: none;
-  color: #fff;
-  background-color: #0099D9;
-  padding: 10px 30px;
-  border-radius: 5px;
-}
-.banner-hero .boton:hover {
-  background-color: #202C4C;
-}
-.banner-hero h1 {
-  font-size: 40px;
-  font-weight: 700;
-  color: #202C4C;
-  padding-bottom: 20px;
-}
-.banner-hero p {
-  font-weight: 300;
-  color: #202C4C;
-  padding-bottom: 20px;
-}
 
 .container-institucional {
   background-color: white;
@@ -77,15 +162,6 @@ body {
 .container-institucional .img-institucional:hover {
   transform: scale(1.1);
 }
-.container-institucional h5 {
-  font-weight: 700;
-  color: #202C4C;
-}
-.container-institucional p {
-  font-weight: 300;
-  color: #202C4C;
-  padding-bottom: 20px;
-}
 
 /*formulario*/
 .form {
@@ -94,29 +170,6 @@ body {
 }
 .form .container-form {
   padding: 100px 50px 100px 50px;
-}
-.form .btn {
-  font-size: 20px;
-  text-decoration: none;
-  color: #fff;
-  background-color: #BD3376;
-  padding: 10px 30px;
-  border-radius: 5px;
-}
-.form .btn:hover {
-  color: white;
-  background-color: #202C4C;
-}
-.form h1 {
-  font-size: 40px;
-  font-weight: 700;
-  color: #202C4C;
-  padding-bottom: 20px;
-}
-.form p {
-  font-weight: 300;
-  color: #202C4C;
-  padding-bottom: 20px;
 }
 
 /*footer*/
@@ -128,12 +181,6 @@ footer {
 }
 footer .logotipo-footer {
   width: 100px;
-}
-footer footer h3 {
-  font-size: 20px;
-  font-weight: 700;
-  color: #202C4C;
-  padding-top: 30px;
 }
 footer .socials-footer {
   width: 40px;
@@ -147,13 +194,6 @@ footer .socials-footer:hover {
 /*NOSOTROS*/
 .hero-nosotros {
   padding: 150px 0 100px 0;
-}
-
-h1 {
-  font-size: 40px;
-  font-weight: 700;
-  color: #202C4C;
-  padding-bottom: 20px;
 }
 
 .hero-nosotros-img {
@@ -176,37 +216,16 @@ h1 {
   padding: 250px 0 250px 0;
   max-width: 100%;
 }
-
-.light-text {
+.hero-productos .light-text {
   color: white;
 }
 
 .container-card {
   padding: 20px 0 80px;
 }
-
-.img-productos-shop {
+.container-card .img-productos-shop {
   width: 200px;
   margin-bottom: 30px;
-}
-
-h6 {
-  font-weight: 700;
-  font-size: 30px;
-  color: #0099D9;
-}
-
-.boton-comprar {
-  font-size: 20px;
-  text-decoration: none;
-  color: #fff;
-  background-color: #0099D9;
-  padding: 10px 30px;
-  border-radius: 5px;
-}
-
-.boton-comprar:hover {
-  background-color: #202C4C;
 }
 
 /*SUCURSALES*/
@@ -230,26 +249,11 @@ h6 {
   padding: 150px 50px 100px 50px;
 }
 
-.btn {
-  font-size: 20px;
-  text-decoration: none;
-  color: #fff;
-  background-color: #0099D9;
-  padding: 10px 30px;
-  border-radius: 5px;
-}
-
-.btn:hover {
-  color: white;
-  background-color: #202C4C;
-}
-
 /*media queries*/
-
-@media only screen and (max-width: 400px){
-
-  .form{
-  height: 800px;
-
+@media only screen and (max-width: 400px) {
+  .form {
+    height: 800px;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */
